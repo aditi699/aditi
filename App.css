@@ -1,0 +1,127 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0f172a;
+  color: white;
+}
+
+div {
+  text-align: center;
+}
+
+h1 {
+  font-size: 50px;
+  margin-top: 80px;
+}
+
+h2 {
+  color: #38bdf8;
+  margin-top: 40px;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+section {
+  padding: 30px;
+}
+
+button {
+  padding: 12px 25px;
+  margin: 10px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.projects {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+
+.project-card {
+  width: 250px;
+  padding: 20px;
+  background: #1e293b;
+  border-radius: 15px;
+  border: 1px solid #38bdf8;
+}
+
+.project-card h3 {
+  color: #38bdf8;
+}
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+nav a:hover {
+  color: #38bdf8;
+}
+.github-stats {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+
+.github-stats > div {
+  width: 180px;
+  padding: 20px;
+  background: #1e293b;
+  border: 1px solid #38bdf8;
+  border-radius: 15px;
+}
+
+.github-stats h3 {
+  color: #38bdf8;
+}
+
+.github-stats p {
+  font-size: 30px;
+  font-weight: bold;
+}
+/* GitHub Dashboard */
+
+#github {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.github-stats {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.github-stats .project-card {
+  width: 180px;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.github-stats .project-card:hover {
+  transform: translateY(-8px);
+}
+
+.github-stats p {
+  font-size: 30px;
+  font-weight: bold;
+  color: #38bdf8;
+}
